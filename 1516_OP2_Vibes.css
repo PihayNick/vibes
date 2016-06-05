@@ -1,0 +1,644 @@
+@font-face
+{
+    font-family: Harabara;
+    src: url(fonts/Harabara.otf);
+}
+
+@font-face
+{
+    font-family: Arimo;
+    src: url(fonts/Arimo.ttf);
+}
+
+body
+{
+    overflow-x: hidden;
+    font-family: "Harabara";
+    line-height: 20px;
+}
+
+#background
+{
+    width: 2000px;
+    position: fixed;
+    z-index: -8;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+}
+
+#navigatie
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#logo
+{
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+h2
+{
+    transform: rotate(10deg);
+    font-size: 3em;
+    margin-left: 300px;
+}
+
+#home
+{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background: white;
+    z-index: -1;
+}
+
+#gif
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    margin: auto;
+    width: 100%; 
+    height: auto;
+}
+
+#ourstory
+{
+    position: absolute;
+    transform: rotate(-10deg);
+    width: 155%;
+    height: 1000px;
+    margin-left: -110px;
+    margin-top: 750px;
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+    z-index: -2;
+}
+
+#ourstory.een
+{
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+}
+#ourstory.twee
+{
+    background: linear-gradient(50deg, rgba(242, 0, 121, 0.8), rgba(157, 12, 182, 0.8), rgba(97, 12, 182, 0.8));
+}
+#ourstory.drie
+{
+    background: linear-gradient(50deg, rgba(64, 255, 128, 0.8), rgba(29, 134, 77, 0.8), rgba(18, 125, 9, 0.8));
+}
+#ourstory.vier
+{
+    background: linear-gradient(50deg, rgba(225, 255, 0, 0.8), rgba(133, 218, 0, 0.8), rgba(61, 218, 0, 0.8));
+}
+
+#pourstory
+{
+    font-family: "Arimo";
+    color: white;
+    transform: rotate(10deg);
+    width: 900px;
+    height: 100px;
+    position: absolute;
+    left: -700px;
+    right: 0;
+    top: 500px;
+    bottom: 0;
+    
+    margin: auto;
+}
+
+#ourstory > h2
+{
+    color: white;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: -600px;
+    right: 0;
+    top: -400px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#whoarewe
+{
+    transform: rotate(10deg);
+    width: 1500px;
+    position: absolute;
+    left: -700px;
+    right: 0;
+    top: 400px;
+    bottom: 0;
+    
+    margin: auto;
+}
+
+#whoarewe > div:first-child
+{
+    margin-left: 300px;
+}
+
+#whoarewe > div
+{
+    color: white;
+    margin-left: 100px;
+    float: left;
+    text-align: center;
+}
+
+#whoarewe > div > img
+{
+    width: 200px;
+}
+
+#whoarewe > div > h3
+{
+    font-size: 1.2em;
+}
+
+#moodfestival
+{
+    color: rgba(230, 0, 61, 1);
+    position: absolute;
+    transform: rotate(-10deg);
+    width: 175%;
+    height: 800px;
+    margin-left: -130px;
+    margin-top: 1740px;
+    background: white;
+    z-index: -3;
+}
+
+#moodfestival.happy
+{
+    color: rgba(230, 0, 61, 1);
+}
+#moodfestival.love
+{
+    color: rgba(97, 12, 182, 1);
+}
+#moodfestival.zen
+{
+    color: rgba(18, 125, 9, 1);
+}
+#moodfestival.energetic
+{
+    color: rgba(61, 218, 0, 1);
+}
+
+#moodfestival > h2
+{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: -700px;
+    right: 0;
+    top: -500px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#poster
+{
+    transform: rotate(10deg);
+    width: 50%;
+    position: absolute;
+    left: -800px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#pmoodfestival
+{
+    transform: rotate(10deg);
+    margin-left: 650px;
+    width: 1000px;
+    margin-top: 10px;
+    position: absolute;
+    left: -800px;
+    right: 0;
+    top: 650px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#products
+{
+    color: white;
+    position: absolute;
+    transform: rotate(-10deg);
+    width: 185%;
+    height: 900px;
+    margin-left: -135px;
+    margin-top: 2450px;
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+    z-index: -4;
+}
+
+#products.een
+{
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+}
+#products.twee
+{
+    background: linear-gradient(50deg, rgba(242, 0, 121, 0.8), rgba(157, 12, 182, 0.8), rgba(97, 12, 182, 0.8));
+}
+#products.drie
+{
+    background: linear-gradient(50deg, rgba(64, 255, 128, 0.8), rgba(29, 134, 77, 0.8), rgba(18, 125, 9, 0.8));
+}
+#products.vier
+{
+    background: linear-gradient(50deg, rgba(225, 255, 0, 0.8), rgba(133, 218, 0, 0.8), rgba(61, 218, 0, 0.8));
+}
+
+#products > h2
+{
+    color: white;
+    width: 300px;
+    position: absolute;
+    left: -900px;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#koptelefoon
+{
+    transform: rotate(10deg);
+    width: 1100px;
+    position: absolute;
+    left: -900px;
+    right: 0;
+    top: 350px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#koptelefoon > img
+{
+    width: 250px;
+}
+
+#contact
+{
+    color: rgba(230, 0, 61, 1);
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 3375px;
+    transform: rotate(-10deg);
+    width: 175%;
+    height: 1000px;
+    background: white;
+    z-index: -5;
+}
+
+#contact.happy
+{
+    color: rgba(230, 0, 61, 1);
+}
+#contact.love
+{
+    color: rgba(97, 12, 182, 1);
+}
+#contact.zen
+{
+    color: rgba(18, 125, 9, 1);
+}
+#contact.energetic
+{
+    color: rgba(61, 218, 0, 1);
+}
+
+#contact > h2
+{
+    position: absolute;
+    left: -900px;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#imgcontact
+{
+    transform: rotate(10deg);
+    margin-left: 200px;
+    width: 30%;
+    margin-top: 0px;
+}
+
+#pcontact
+{
+    transform: rotate(10deg);
+    width: 500px;
+    transform: rotate(10deg);
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 900px;
+    bottom: 0;
+    
+    margin: auto;
+}
+
+#contact > form
+{
+    width: 500px;
+    transform: rotate(10deg);
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 400px;
+    bottom: 0;
+    
+    margin: auto;
+}
+
+#contact > form > textarea
+{
+    resize: none;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    color: rgba(230, 0, 61, 1);
+    font-family: "Harabara";
+}
+
+#contact > form > input
+{
+    border-radius: 15px;
+    background-color: white;
+    color: rgba(230, 0, 61, 1);
+    font-family: "Harabara";
+}
+
+#submitcontact
+{
+    font-family: "Harabara";
+    color: rgba(230, 0, 61, 1);
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+
+#submitcontact.happy
+{
+    color: rgba(230, 0, 61, 1);
+}
+#submitcontact.love
+{
+    color: rgba(97, 12, 182, 1);
+}
+#submitcontact.zen
+{
+    color: rgba(18, 125, 9, 1);
+}
+#submitcontact.energetic
+{
+    color: rgba(61, 218, 0, 1);
+}
+
+#subscribe
+{
+    color: white;
+    position: absolute;
+    margin-top: 4300px;
+    width: 100%;
+    height: 540px;
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+    z-index: -6;
+}
+
+#subscribe.een
+{
+    background: linear-gradient(50deg, rgba(230, 194, 73, 0.8), rgba(230, 133, 73, 0.8), rgba(230, 0, 61, 0.8));
+}
+#subscribe.twee
+{
+    background: linear-gradient(50deg, rgba(242, 0, 121, 0.8), rgba(157, 12, 182, 0.8), rgba(97, 12, 182, 0.8));
+}
+#subscribe.drie
+{
+    background: linear-gradient(50deg, rgba(64, 255, 128, 0.8), rgba(29, 134, 77, 0.8), rgba(18, 125, 9, 0.8));
+}
+#subscribe.vier
+{
+    background: linear-gradient(50deg, rgba(225, 255, 0, 0.8), rgba(133, 218, 0, 0.8), rgba(61, 218, 0, 0.8));
+}
+
+footer > h2
+{
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    transform: rotate(0deg);
+}
+
+#app
+{
+    width: 600px;
+    position: absolute;
+    top: 350px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+#app > a
+{
+    float: right;
+    
+    margin-top: -29px;
+    
+}
+
+#app > a > img
+{
+    height: 20px;
+}
+
+#foot
+{
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 450px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(0deg);
+}
+
+#button
+{
+    color: rgba(230, 0, 61, 1);
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    background-color: white;
+    margin-left: 50px;
+    font-family: "Harabara";
+    border: none;
+}
+
+#button.happy
+{
+    color: rgba(230, 0, 61, 1);
+}
+#button.love
+{
+    color: rgba(97, 12, 182, 1);
+}
+#button.zen
+{
+    color: rgba(18, 125, 9, 1);
+}
+#button.energetic
+{
+    color: rgba(61, 218, 0, 1);
+}
+
+#foot > p
+{
+    float: left;
+    margin-right: 20px;
+}
+
+#foot > input
+{
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#foot > ::-webkit-input-placeholder 
+{
+    text-indent: 230px;
+}
+
+#foot > a
+{
+    margin-top: -20px;
+    margin-right: 5px;
+    float: right;
+}
+
+#foot > a > img
+{
+    width: 40px;
+}
+
+#clear
+{
+    clear: left;
+}
+
+@media (max-width: 1200px)
+{
+     #pourstory
+    {
+        left: -400px;
+    }
+    
+    #whoarewe
+    {
+    left: -400px;
+    }
+    
+    #whoarewe > div > img
+    {
+    width: 150px;
+    }
+    
+    #poster
+    {
+        left: -500px;
+    }
+    
+    #koptelefoon > img
+    {
+    width: 200px;
+    }
+    
+    #koptelefoon
+    {
+        left: -600px;
+    }
+    
+    #imgcontact
+    {
+    margin-top: 200px;
+    }
+
+}
+
+@media (max-width: 950px)
+{
+     #pourstory
+    {
+        left: -320px;
+    }
+    
+    #whoarewe
+    {
+    left: -300px;
+    }
+    
+    #whoarewe > div > img
+    {
+    width: 100px;
+    }
+}
